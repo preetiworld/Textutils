@@ -1,5 +1,5 @@
 {
-  "homepage": "https://preetiworld.github.io/TextUtils-React",
+  "homepage": ".",
   "name": "textutils",
   "version": "0.1.0",
   "private": true,
@@ -18,7 +18,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
